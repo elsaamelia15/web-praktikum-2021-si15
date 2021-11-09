@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+.material-icons {
+  direction: ltr;
+  display: inline-block;
+  font-family: "Material Icons";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+  
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: lightgray;
+  border-bottom: 1px solid black;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.header-title {
+  float: left;
+  padding: 20px 70px;
+}
+
+.header-list {
+  float: left;
+  padding: 25px 0;
+}
+
+.header-list li {
+  float: left;
+  padding: 0 15px;
+}
+
+.header-list-mid {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.cart {
+  float: right;
+  padding: 25px 70px 25px 0;
+}
+
+.cart p {
+  display: inline;
+  position: relative;
+  bottom: 6px;
+}
+
+.mid {
+  display: flex;
+  max-width: 100%;
+  padding: 150px 150px 250px 150px;
+}
+
+.order {
+  flex: auto;
+}
+
+.icon span {
+  float: left;
+  font-size: 72px;
+  padding: 0 10px 0 0;
+  position: relative;
+  bottom: 10px;
+}
+
+.icon p {
+  display: inline;
+}
+
+.mid-confirm h2 {
+  padding: 10px 0;
+}
+
+.mid-confirm p {
+  padding: 5px 0;
+}
+
+.mid-contents {
+  display: flex;
+  max-width: 100%;
+}
+
+.content {
+  flex: auto;
+  padding: 0 0 20px 0;
+  width: 50%;
+}
+
+.content h4 {
+  padding: 8px 0;
+}
+
+.content span {
+  position: relative;
+  bottom: 4px;
+}
+
+.card {
+  display: inline;
+  position: relative;
+  bottom: 10px;
+}
+
+.order {
+  flex: auto;
+}
+
+.summary {
+  margin: 0 0 0 50px;
+}
+
+.summary-box {
+  background-color: lightgray;
+  float: right;
+  padding: 20px;
+  width: fit-content;
+}
+
+.summary-box h4 {
+  padding: 0 0 20px 0;
+}
+
+.summary-box p {
+  padding: 5px 0;
+}
+
+.form input {
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 26px;
+  position: relative;
+  top: 1px;
+  width: 180px;
+}
+
+.form a {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px rgb(73, 73, 73);
+  color: black;
+  font-size: 14px;
+  opacity: 0.7;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.form a:hover {
+  opacity: 1;
+}
+
+.form a:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+.price {
+  display: inline;
+  float: right;
+}
+
+footer {
+  border-top: 1px solid black;
+  height: 70px;
+  width: 100%;
+}
