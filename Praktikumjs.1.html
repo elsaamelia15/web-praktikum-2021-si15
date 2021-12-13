@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Praktikum Js</title>
+        <script src="https://code.jquery-1.9.1.js"></script>
+        <script>
+            function penjumlahan(){
+                var bil1=document.getElementById("bil1").value;
+                var bil2=document.getElementById("bil2").value;
+                var hasil=parseInt(bil1)+parseInt(bil2);
+
+                document.getElementById("hasil").value=hasil;
+            }
+        </script>
+        <body>
+            <h2>Kalkulator Penjumlahan</h2>
+            Bilang 1 : <input type="number" id="bil1"><br>
+            Bilang 2 : <input type="number" id="bil2"><br>
+            Hasil : <input type="number" id="hasil"><br>
+            <button onclick="penjumlahan()">PENJUMLAHAN</button>
+        </body>
+    </head>
+</html>
